@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*styling for Header elements*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,8 +23,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header section {
+/*header nav specific styling*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header section ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -73,7 +73,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*styling for benefits class and sub classes*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,7 +90,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-top: 10px;
     text-align: center;
 }
@@ -139,6 +139,7 @@ p {
     font-size: 36px;
 }
 
+/*Styling for Footer*/
 .footer {
     padding: 30px;
     clear: both;
